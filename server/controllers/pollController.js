@@ -62,3 +62,7 @@ const postVote = async (req, res) => {
 };
 
 module.exports = { getPolls, getPoll, postPoll, postVote };
+
+const getOrder = async (req, res) => {
+  res.status(200).json(order);
+}
